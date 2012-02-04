@@ -1,5 +1,10 @@
 Radarpusht
 ============
+A very simplistic Android APP that assumes the following goals:
+- minimal battery usage
+- very easy to operate - turn on, off, check the status of..
+
+KML file for the cameras is available here: http://www.ynet.co.il/articles/0,7340,L-4181378,00.html
 
 Mockup:
 https://docs.google.com/drawings/d/1KBzen-XTCxaMj7X8ua_HTNmvh881qrfwYXeVdp-CYJI/edit
