@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>פריסת מצלמות גאטסו ינואר 2012</name>
+	<open>1</open>
+	<Style id="Red_N1">
+		<IconStyle>
+			<color>ff0055ff</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/camera.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0055ff</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="Red_hl0">
+		<IconStyle>
+			<color>ff0055ff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/camera.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0055ff</color>
+			<scale>1.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_camera0">
+		<IconStyle>
+			<color>ff00bbff</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/camera.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff007788</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="a00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#Red_N1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#Red_hl1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_camera0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_camera00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_camera0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_camera00">
+		<IconStyle>
+			<color>ff00bbff</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/camera.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff007788</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="Red_N0">
+		<IconStyle>
+			<color>ff0055ff</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/camera.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0055ff</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_camera0">
+		<IconStyle>
+			<color>ff00bbff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/camera.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00bbff</color>
+			<scale>1.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_camera00">
+		<IconStyle>
+			<color>ff00bbff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/camera.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00bbff</color>
+			<scale>1.5</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_camera">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_camera</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_camera</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_camera">
+		<IconStyle>
+			<color>ff0055ff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/camera.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0055ff</color>
+			<scale>1.5</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_camera00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_camera0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_camera00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_camera">
+		<IconStyle>
+			<color>ff0055ff</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/camera.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0055ff</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="Red_hl1">
+		<IconStyle>
+			<color>ff0055ff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/camera.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0055ff</color>
+			<scale>1.5</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="a0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#Red_N0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#Red_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>מצלמת רמזור ומהירות</name>
+		<description>כביש 40 דרומה, צומת בית קמה</description>
+		<styleUrl>#a00</styleUrl>
+		<Point>
+			<coordinates>34.76615,31.44228,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת רמזור ומהירות</name>
+		<description>כביש 40 צפונה, צומת פלוגות</description>
+		<styleUrl>#msn_camera</styleUrl>
+		<Point>
+			<coordinates>34.75715,31.62566,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת רמזור ומהירות</name>
+		<description>כביש 40 דרומה, צומת גינתון</description>
+		<styleUrl>#a00</styleUrl>
+		<Point>
+			<coordinates>34.90672,31.95679,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת רמזור ומהירות</name>
+		<description>כביש 40 דרומה, נווה ימין</description>
+		<styleUrl>#a00</styleUrl>
+		<Point>
+			<coordinates>34.92655,32.16506,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת רמזור ומהירות</name>
+		<description>כביש 55 מערבה, נווה ימין</description>
+		<styleUrl>#a00</styleUrl>
+		<Point>
+			<coordinates>34.93776,32.17647,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת רמזור ומהירות</name>
+		<description>כביש 4 דרומה, צומת אמונים</description>
+		<styleUrl>#a00</styleUrl>
+		<Point>
+			<coordinates>34.66298,31.75346,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת רמזור ומהירות</name>
+		<description>כביש 4 צפונה, מחלף מורשה</description>
+		<styleUrl>#a00</styleUrl>
+		<Point>
+			<coordinates>34.85523,32.12395,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת מהירות</name>
+		<description>כביש 4 צפונה, אחרי מחלף אם המושבות</description>
+		<styleUrl>#msn_camera0</styleUrl>
+		<Point>
+			<coordinates>34.84901,32.10512,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת רמזור ומהירות</name>
+		<description>כביש 4 דרומה, צומת בית ליד</description>
+		<styleUrl>#a0</styleUrl>
+		<Point>
+			<coordinates>34.90426,32.32361,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת מהירות</name>
+		<description>כביש 4 דרומה, אחרי היציאה מחדרה</description>
+		<styleUrl>#msn_camera0</styleUrl>
+		<Point>
+			<coordinates>34.90693,32.42264,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת מהירות</name>
+		<description>כביש 4 דרומה, לפני אור עקיבא</description>
+		<styleUrl>#msn_camera0</styleUrl>
+		<Point>
+			<coordinates>34.93037,32.50919,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת מהירות</name>
+		<description>כביש 4 צפונה, לפני הכניסה לחדרה</description>
+		<styleUrl>#msn_camera0</styleUrl>
+		<Point>
+			<coordinates>34.90812,32.42651,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת מהירות</name>
+		<description>כביש 4 צפונה, לפני אור עקיבא</description>
+		<styleUrl>#msn_camera0</styleUrl>
+		<Point>
+			<coordinates>34.92537,32.49421,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת מהירות</name>
+		<description>כביש 4 דרומה, אחרי רגבה</description>
+		<styleUrl>#msn_camera0</styleUrl>
+		<Point>
+			<coordinates>35.09242,32.97152,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת רמזור ומהירות</name>
+		<description>כביש 4 צפונה, צומת עכו מזרח</description>
+		<styleUrl>#a0</styleUrl>
+		<Point>
+			<coordinates>35.09695,32.91879,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת מהירות</name>
+		<description>כביש 4 צפונה, אחרי לוחמי הגטאות</description>
+		<styleUrl>#msn_camera0</styleUrl>
+		<Point>
+			<coordinates>35.09382,32.96411,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת מהירות</name>
+		<description>כביש 4 צפונה, לפני עין המפרץ</description>
+		<styleUrl>#msn_camera0</styleUrl>
+		<Point>
+			<coordinates>35.09254,32.89893,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת מהירות</name>
+		<description>כביש 2 דרומה, בין אולגה למכמורת</description>
+		<styleUrl>#msn_camera0</styleUrl>
+		<Point>
+			<coordinates>34.88577,32.42187,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת מהירות</name>
+		<description>כביש 2 דרומה, אחרי ג&apos;סר א-זרקא</description>
+		<styleUrl>#msn_camera0</styleUrl>
+		<Point>
+			<coordinates>34.91464,32.52507,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת מהירות</name>
+		<description>כביש 2 דרומה, אחרי מחלף זכרון</description>
+		<LookAt>
+			<longitude>34.92361056237179</longitude>
+			<latitude>32.58200461600087</latitude>
+			<altitude>0</altitude>
+			<heading>5.224071760509226e-006</heading>
+			<tilt>0</tilt>
+			<range>401.0497897843151</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_camera0</styleUrl>
+		<Point>
+			<coordinates>34.92381,32.58209,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת מהירות</name>
+		<description>כביש 2 צפונה, לפני אולגה</description>
+		<styleUrl>#msn_camera0</styleUrl>
+		<Point>
+			<coordinates>34.88907,32.43293,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת מהירות</name>
+		<description>כביש 2 צפונה, ליד ג&apos;סר א-זקרא</description>
+		<styleUrl>#msn_camera0</styleUrl>
+		<Point>
+			<coordinates>34.91654,32.54429,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת מהירות</name>
+		<description>כביש 44 מזרחה, ליד מקווה ישראל</description>
+		<styleUrl>#msn_camera0</styleUrl>
+		<Point>
+			<coordinates>34.78599,32.03481,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת רמזור ומהירות</name>
+		<description>כביש 44 מזרחה, צומת בית דגן</description>
+		<styleUrl>#msn_camera</styleUrl>
+		<Point>
+			<coordinates>34.82075,32.00143888888889,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת מהירות</name>
+		<description>כביש 44 מזרחה, לפני פסי הרכבת</description>
+		<styleUrl>#msn_camera0</styleUrl>
+		<Point>
+			<coordinates>34.86231,31.94361,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת מהירות</name>
+		<description>כביש 44 מערבה, ליד מקווה ישראל</description>
+		<styleUrl>#msn_camera0</styleUrl>
+		<Point>
+			<coordinates>34.78522,32.03549,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת רמזור ומהירות</name>
+		<description>כביש 44 מערבה, מחלף השבעה</description>
+		<styleUrl>#a0</styleUrl>
+		<Point>
+			<coordinates>34.81552,32.00871,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת מהירות</name>
+		<description>כביש 44 מערבה, אחרי ניר צבי</description>
+		<styleUrl>#msn_camera0</styleUrl>
+		<Point>
+			<coordinates>34.85494,31.95498,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת רמזור ומהירות</name>
+		<description>כביש 65 מזרחה, צומת חנה</description>
+		<styleUrl>#msn_camera</styleUrl>
+		<Point>
+			<coordinates>34.9865,32.45876111111112,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת מהירות</name>
+		<description>כביש 65 מזרחה, ליד ערערה</description>
+		<styleUrl>#msn_camera00</styleUrl>
+		<Point>
+			<coordinates>35.09873055555556,32.50625,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת רמזור ומהירות</name>
+		<description>כביש 65 מערבה, צומת נחל חדרה</description>
+		<styleUrl>#a0</styleUrl>
+		<Point>
+			<coordinates>34.91409,32.46486,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת מהירות</name>
+		<description>כביש 65 מערבה, מול תחנת הדלק</description>
+		<styleUrl>#msn_camera0</styleUrl>
+		<Point>
+			<coordinates>35.07428,32.50153,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת מהירות</name>
+		<description>כביש 65 מערבה, אחרי צומת מגידו</description>
+		<styleUrl>#msn_camera0</styleUrl>
+		<Point>
+			<coordinates>35.18109,32.56841,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת רמזור ומהירות</name>
+		<description>כביש 60 מזרחה, צומת תל שבע</description>
+		<styleUrl>#a0</styleUrl>
+		<Point>
+			<coordinates>34.82595,31.25703,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת רמזור ומהירות</name>
+		<description>כביש 70 מערבה, צומת שפיה</description>
+		<styleUrl>#a0</styleUrl>
+		<Point>
+			<coordinates>34.96758,32.58299,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת רמזור ומהירות</name>
+		<description>כביש 70 דרומה, צומת יבור</description>
+		<styleUrl>#a0</styleUrl>
+		<Point>
+			<coordinates>35.18158,32.89321,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת רמזור ומהירות</name>
+		<description>כביש 70 דרומה, צומת אבליים</description>
+		<styleUrl>#msn_camera</styleUrl>
+		<Point>
+			<coordinates>35.15196,32.82451,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת רמזור ומהירות</name>
+		<description>כביש 85 מזרחה, צומת אחיהוד</description>
+		<styleUrl>#msn_camera</styleUrl>
+		<Point>
+			<coordinates>35.16641111111111,32.91186111111111,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת רמזור ומהירות</name>
+		<description>כביש 35 מערבה, צומת גבעתי</description>
+		<styleUrl>#a0</styleUrl>
+		<Point>
+			<coordinates>34.66376,31.65328,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת מהירות</name>
+		<description>כביש 784 מערבה, אחרי כפר מנדא</description>
+		<styleUrl>#msn_camera00</styleUrl>
+		<Point>
+			<coordinates>35.24608888888889,32.8115,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>מצלמת מהירות</name>
+		<description>כביש 784 דרומה, אחרי צומת מורשת</description>
+		<styleUrl>#msn_camera0</styleUrl>
+		<Point>
+			<coordinates>35.23302,32.83017,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
