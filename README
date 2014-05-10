@@ -1,5 +1,8 @@
 Radarpusht
 ============
+
+Update (2014) - A little while ago I put up a project with complete implementation of the design here https://github.com/romansky/pebbleCamAlert
+
 A very simplistic Android APP that assumes the following goals:
 - minimal battery usage
 - very easy to operate - turn on, off, check the status of..
